@@ -195,16 +195,27 @@ bindsym Mod1+r mode "resize"
 bar {
         status_command i3status
 }
+
+
+exec xfce4-terminal
 exec discord
 exec firefox
 exec nautilus
-
+exec "xandr -s 1920x1080"
 
 
 
 
 
 # assigning programs to different workspaces
-assign [class = "discord" ] 5 
 assign [class = "firefox" ] 3 
-assign [class = "nautilus" ] 4
+assign [class = "org.gnome.Nautilus" ] 4
+assign [class = "discord" ] 5
+
+
+
+
+
+
+
+
