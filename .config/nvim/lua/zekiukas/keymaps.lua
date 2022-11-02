@@ -7,7 +7,7 @@ end
 map("", "<Space>", "<Nop>")
 vim.g.mapleader = " "
 
-
+map("n", "<C-s>", ":w<cr>")
 map("n", "x", "\"_x")
 map("n", "dw", "diw")
 map("n", "cw", "ciw")

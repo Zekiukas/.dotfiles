@@ -44,7 +44,8 @@ if lsp_ok then
         "clangd",
         "cssls",
         "html",
-        "tsserver"
+        "tsserver",
+        "rust_analyzer",
 	}
 
 

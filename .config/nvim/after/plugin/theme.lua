@@ -40,7 +40,8 @@ if catppuccin_ok then
 			CursorLine = { bg = palette.surface0 },
 			EndOfBuffer = { fg = "#7480C2" },
 			Whitespace = { fg = palette.surface2 },
-					},
+		    Comment = {fg = "#ec6868"},
+		},
 	})
 
 	vim.cmd("colorscheme catppuccin")
