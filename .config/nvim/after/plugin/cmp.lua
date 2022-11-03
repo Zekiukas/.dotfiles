@@ -87,7 +87,17 @@ if cmp_ok and ls_ok then
 			inode(5, ""),
 		})),
 	})
-
+    ls.add_snippets("cpp", {
+        snip("nma", fmt([[
+        #include <bits/stdc++.h>
+        using namespace std;
+        int main() {{
+            {1}
+        }}
+        ]],{
+                inode(1, "/* code */")
+            }))
+    })
 	cmp.setup({
 		snippet = {
 			expand = function(args)

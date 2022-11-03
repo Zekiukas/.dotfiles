@@ -46,7 +46,7 @@ if packer_ok then
             use({ "lewis6991/gitsigns.nvim" })
             use({ "kyazdani42/nvim-web-devicons" })
             use({ "akinsho/toggleterm.nvim" })
-
+            use({"ThePrimeagen/vim-be-good"})
 
 
 

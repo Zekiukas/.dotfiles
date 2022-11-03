@@ -14,7 +14,6 @@ order += "tztime local"
 
 tztime local {
         format = "%Y-%m-%d %H:%M:%S"
-        hide_if_equals_localtime = true
 }
 
 load {
